@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'edgedisplay_regular';
+    src: url('../fonts/edgedisplay-regular-webfont.woff2') format('woff2'),
+         url('../fonts/edgedisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'comfortaa_regular';
+    src: url('../fonts/comfortaa_regular-webfont.woff2') format('woff2'),
+         url('../fonts/comfortaa_regular-webfont.woff') format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.hidden {
+    display: none;
+}
+
+#container {
+    margin: 20px auto;
+    width: 428px;
+    border: solid 1px #ff8d67;
+    background: #ff8d67;
+    border-radius: 10px;
+}
+
+#mainContent {
+        display: grid;
+        grid-template-columns: repeat(4, 85px);
+        grid-column-gap: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+h1 span{
+    font-family: 'edgedisplay_regular';
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: #FC6736;
+    padding: 5px 15px 0px;
+    border-radius: 11px;
+    box-shadow: 2px 2px 4px #ea4108;
+}
+
+article {
+    grid-column: 1/-1;
+}
+
+img {
+    object-fit: cover;
+    border-radius: 10px;
+    height: 250px;
+    width: 385px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 4px #0000008d;
+}
+
+p{
+    font-family: 'comfortaa_regular';
+    font-size: 20px;
+    color: white;
+    line-height: 20px;
+}
+
+p span{
+    font-family:'edgedisplay_regular';
+    font-size: 20px;
+    color: white;
+    line-height: 20px;
+    background-color: #FC6736;
+    padding: 0px 5px 0px;
+    border-radius: 2px;
+    
+}
